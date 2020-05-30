@@ -10,6 +10,7 @@ def mostrar_nombre(nombre):
 # mostrar_nombre(nombre.upper())
 # mostrar_nombre(nombre.title())
 
+
 # Retos
 ## 00 Crea una función que imprima un mensaje de bienvenida
 ## 01 Crea una función que tome un nombre de usuario y lo muestre como mensaje de bienvenida
