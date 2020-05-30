@@ -16,7 +16,7 @@ def mostrar_nombre(nombre):
 ## 00 Crea una función que tome la ultima actividad que hiciste
 
 #01
-def mensaje_bienvenida(): 
+def mensaje_bienvenida():
     print('Hola, Bienvenid@')
 
 mensaje_bienvenida()
