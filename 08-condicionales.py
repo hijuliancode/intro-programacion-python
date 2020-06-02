@@ -52,3 +52,13 @@ elif ocupacion == 'Desempleado':
   print('Tiene un descuento del 15%')
 else:
   print('Debe pagar el 100%')
+
+# Operadores and y or
+usuario_logueado = True
+usuario_admin = False
+if usuario_logueado and usuario_admin:
+  print('Administrador')
+elif usuario_logueado or usuario_admin:
+  print('Usuario logueado')
+else:
+  print('Iniciar sesión')
