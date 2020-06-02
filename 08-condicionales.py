@@ -21,3 +21,22 @@ if usuario_autenticado:
   print('El usuario esta autenticado')
 else:
   print('El usuario no esta autenticado')
+
+#Evaluar elementos de una lista
+lenguajes = ['Python', 'JavaScript', 'Dart', 'C++', 'Ruby']
+if not 'PHP' in lenguajes:
+  print('No se encuentra en la lista')
+else:
+  print('Si se encuentra en la lista')
+
+# If anidados
+usuario_autenticado = True
+usuario_admin = False
+
+if usuario_autenticado:
+  if usuario_admin:
+    print('Acceso Total!')
+  else:
+    print('El usuario esta autenticado')
+else:
+  print('El usuario no esta autenticado')
