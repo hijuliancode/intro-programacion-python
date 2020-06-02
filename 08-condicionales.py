@@ -40,3 +40,15 @@ if usuario_autenticado:
     print('El usuario esta autenticado')
 else:
   print('El usuario no esta autenticado')
+
+# elif
+ocupacion = 'Estudiante'
+
+if ocupacion == 'Estudiante':
+  print('Tiene un descuento del 50%')
+elif ocupacion == 'Jubilado':
+  print('Tiene un descuento del 75%')
+elif ocupacion == 'Desempleado':
+  print('Tiene un descuento del 15%')
+else:
+  print('Debe pagar el 100%')
